@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WOS</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Rasha'Kh">
+  <meta name="description" content="Wallet of keyword I like to search about">
+  <meta name="keyword" content="Wallet,Search,information">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <div id="Login" class="leftside">LogIn</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>  W e l c o m e </p>
+    <input id="pass" type="password" name="password" placeholder="Password" onkeydown="enctypt(this)">
+    <p style="color:red" id="err"></p>
+    <a href="wallet.html"></a>
+  </div>
+
+</div>
+  <header>
+    <h1>Wallet Of Search</h1>
+  </header>
+  <div>
+      <div>
+        <form action="" id="form">
+          <input id="input" type="text" name="input" size="70" autofocus="" spellcheck="false" onkeydown="on_enter(this)">
+          <select id="selcted" onchange="selcted_category()" name="category">
+            <option value="Select" selected="selected">Select</option>
+            <option value="Technology">Technology</option>
+            <option value="Science">Science</option>
+            <option value="Physics">Physics</option>
+            <option value=History>History</option>
+            <option value="Anime">Anime</option>
+            <option value="Series">Series</option>
+            <option value="Movie">Movie</option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <p id="demo">here</p>
+  <div>
+      <footer style="padding-top:30%;">
+        <p>
+          <!--Purpose from this site-->
+            This is my "Wallet" of keywords, terms, informations, series, animes that I have met them or heard about them in my daily life That I've like to search and know more about
+        </p>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
